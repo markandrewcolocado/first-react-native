@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { StyleSheet, Text, View, Image, Button } from 'react-native'
 
-const CounterScreen = () => {
+const CounterScreenState = () => {
   const [counter, setCounter] = useState(0)
 
   return (
@@ -26,4 +26,4 @@ const CounterScreen = () => {
 
 const styles = StyleSheet.create({})
 
-export default CounterScreen
+export default CounterScreenState

@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 import ColorCounter from '../components/ColorCounter'
 const COLOR_INCREMENT = 15
 
-const SquareScreen = () => {
+const SquareScreenState = () => {
   const [red, setRed] = useState(Math.floor(Math.random() * 256))
   const [green, setGreen] = useState(Math.floor(Math.random() * 256))
   const [blue, setBlue] = useState(Math.floor(Math.random() * 256))
@@ -61,4 +61,4 @@ const SquareScreen = () => {
   )
 }
 
-export default SquareScreen
+export default SquareScreenState
