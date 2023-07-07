@@ -9,6 +9,7 @@ import ColorScreen from './src/screens/ColorScreen'
 import SquareScreenState from './src/screens/SquareScreenState'
 import SquareScreenReducer from './src/screens/SquareScreenReducer'
 import SampleScreenReducer from './src/screens/SampleScreenReducer'
+import CounterScreenReducer from './src/screens/CounterScreenReducer'
 
 const navigator = createStackNavigator(
   {
@@ -17,6 +18,7 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Image: ImageScreen,
     CounterState: CounterScreenState,
+    CounterReducer: CounterScreenReducer,
     Color: ColorScreen,
     SquareState: SquareScreenState,
     SquareReducer: SquareScreenReducer,

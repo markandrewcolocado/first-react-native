@@ -18,8 +18,12 @@ const HomeScreen = (props) => {
         onPress={() => props.navigation.navigate('Image')}
       />
       <Button
-        title="Go to Counter Demo"
+        title="Go to Counter State Demo"
         onPress={() => props.navigation.navigate('CounterState')}
+      />
+      <Button
+        title="Go to Counter Reducer Demo"
+        onPress={() => props.navigation.navigate('CounterReducer')}
       />
       <Button
         title="Go to Color Demo"
