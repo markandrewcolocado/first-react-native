@@ -15,9 +15,9 @@ const styles = StyleSheet.create({
   viewStyle: {
     borderWidth: 3,
     borderColor: 'black',
-    alignItems: 'center', // flex-start, center, flex-end, baseline, stretch(default)
-    flexDirection: 'column', // column (default), column-reverse, row, row-reverse
     height: 200,
+    justifyContent: 'center', // center, space-between, space-around, flex-start, flex-end
+    flexDirection: 'row', // column, column-reverse, row, row-reverse
   },
   textStyle: {
     borderWidth: 3,
