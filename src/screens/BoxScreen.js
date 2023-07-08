@@ -16,23 +16,27 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'black',
     height: 200,
+    alignItems: 'flex-end',
     // justifyContent: 'center', // center, space-between, space-around, flex-start, flex-end
     // flexDirection: 'row', // column, column-reverse, row, row-reverse
   },
   textOneStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    flex: 4,
+    // alignSelf: 'flex-end',
+    // flex: 4,
   },
   textTwoStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    flex: 4,
+    alignSelf: 'center',
+    // flex: 4,
   },
   textThreeStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    flex: 2,
+    // alignSelf: 'flex-start',
+    // flex: 2,
   },
 })
 
