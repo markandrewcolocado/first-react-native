@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'black',
     height: 200,
-    alignItems: 'flex-end',
+    alignItems: 'center', // stretch (default - ignored by child element with position: absolute property), flex-start, center, flex-end, baseline
     // justifyContent: 'center', // center, space-between, space-around, flex-start, flex-end
     // flexDirection: 'row', // column, column-reverse, row, row-reverse
   },
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
     borderColor: 'red',
     alignSelf: 'center',
     // flex: 4,
+    position: 'absolute',
   },
   textThreeStyle: {
     borderWidth: 3,
